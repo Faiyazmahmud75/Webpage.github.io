@@ -30,7 +30,7 @@ p{
     
 width: 101%;
 position: relative;
-z-index: 100;
+z-index: 99999;
 }
 .MainBar{
     background: #f5f5f5;
