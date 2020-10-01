@@ -29,8 +29,8 @@ p{
 #header{
     
 width: 101%;
-    
 position: relative;
+z-index: 100;
 }
 .MainBar{
     background: #f5f5f5;
@@ -215,7 +215,6 @@ section.Slider {
     overflow: hidden;
     height: 430px;
     position: relative;
-    z-index: -5;
 }
 
 .Slider-Content {
