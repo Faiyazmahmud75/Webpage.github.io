@@ -433,7 +433,7 @@ section.Our-Team {
 
 .Image img {
     width: 100%;
-    border-left: 8px solid #ff525fab;
+    border-left: 8px solid #fb520099;
     padding-left: 5px;
 }
 
@@ -453,42 +453,32 @@ section.Our-Team {
 .TeamIcons a {padding: 0px 10px;}
 
 .TeamIcons a i {
-    font-size: 30px;
+    font-size: 25px;
     transition: .3s;
 }
 
 .border img {
-    border-color: #709e009e;
+    border-color: #429884a6;
 }
-
-.twitter {
-    color: #c1c0bf;
-}
-
 .facebook {
-    color: #c1c0bf;
-}
-
-.linkedin{
-    color: #c1c0bf;
-}.twitter:hover{
-    color: #00acee;
-}
-
-.facebook:hover{
     color: #0f64ff;
 }
 
-.linkedin:hover{
+.linkedin{
     color: #0e76a8;
+}.twitter{
+    color: #00acee;
 }
-
+.insta{
+    color: #e1306c;
+}
 .Image:hover .TeamIcons {
     transform: rotateX(0deg);
 }
 
 .TeamIcons>a>i:hover {
-    transform: scale(1.2);
+    transform: scale(1.05);
+    color: #ddd;
 }
 /*----------- End of Our Team section ------------*/
 section.Achievments {
